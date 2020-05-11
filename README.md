@@ -166,8 +166,7 @@ still have a relatively important role to play.
 
 ## RaspberryPi Integration
 
-***This part of the system has not been implemented due to challenges faced with acquiring a RaspberryPi
-either. However, below is a description of how this code repo will work with a RaspberryPi for a traffic
+***This part of the system has not been implemented due to challenges faced with acquiring a RaspberryPi. However, below is a description of how this code repo will work with a RaspberryPi for a traffic
 management system prototype.***
 
 As this project aims to prototype an intelligent traffic management system, we
