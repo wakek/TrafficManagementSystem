@@ -1,5 +1,12 @@
 # TrafficManagementSystem
 
+## Running the Code
+To run the demo above, simply clone this repo, and run **main.py**.
+You will need the following modules installed in python:
+- Tensorflow 1.13 (other versions may not work)
+- numpy
+- cv2
+
 ## Software Function
 
 The product deliverable is an intelligent traffic management system that employs
