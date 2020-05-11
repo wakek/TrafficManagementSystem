@@ -1,5 +1,6 @@
 # TrafficManagementSystem
-Software Function
+
+**Software Function
 
 The product deliverable is an intelligent traffic management system that employs
 machine learning methods and the artificial bee colony (ABC) algorithm to
@@ -16,7 +17,7 @@ T-junction.
 
 
 
-Vehicle Detection Model
+**Vehicle Detection Model
 
 The setup needs vision, and a camera works for that, it also requires some way to
 process what its vision captures and recognize the number and types of vehicles
@@ -33,11 +34,9 @@ group members had with it.
 
 
 
-Artificial
-Bee Colony Algorithm
+**Artificial Bee Colony Algorithm
 
-            The
-second part of our software implementation involves the use of the Artificial
+The second part of our software implementation involves the use of the Artificial
 Bee Colony (ABC) algorithm. This algorithm, proposed by Derviş Karaboğa
 in 2005, is an optimization technique that employs, population-based search
 algorithm, built of the nature of honeybees. Three major components of the
