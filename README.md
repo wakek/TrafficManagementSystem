@@ -1,6 +1,6 @@
 # TrafficManagementSystem
 
-##Software Function
+## Software Function
 
 The product deliverable is an intelligent traffic management system that employs
 machine learning methods and the artificial bee colony (ABC) algorithm to
@@ -17,7 +17,7 @@ T-junction.
 
 
 
-##Vehicle Detection Model
+## Vehicle Detection Model
 
 The setup needs vision, and a camera works for that, it also requires some way to
 process what its vision captures and recognize the number and types of vehicles
@@ -34,7 +34,7 @@ group members had with it.
 
 
 
-##Artificial Bee Colony Algorithm
+## Artificial Bee Colony Algorithm
 
 The second part of our software implementation involves the use of the Artificial
 Bee Colony (ABC) algorithm. This algorithm, proposed by Derviş Karaboğa
@@ -62,9 +62,9 @@ in this process, come in the following comments section.
 
 
 
-##Comments
+## Comments
 
-###How it is Used
+### How it is Used
 
 To apply the algorithm to our particular case of traffic management, we identified
 the roads at junctions as sources and the number of cars as the nectar/food
@@ -112,7 +112,7 @@ underlying neural network of our image detection model also uses a map
 structure which allows it to make its detections quickly.
 
 
-##Our Application of the ABC Algorithm
+## Our Application of the ABC Algorithm
 
 Utilizing the three essential components identified earlier from the ABC algorithm, we
 came up with our modification. It works simply, it takes in data in the format
@@ -128,7 +128,7 @@ because they have a different effect on how urgent it is to free traffic on a
 particular road.
 
 
-###Effect of Regular cars on Fitness
+### Effect of Regular cars on Fitness
 
 On the iteration with the 'cars' parameter, we aim to increase the fitness value.
 However, in the case of an emergency, with an ambulance on one road, we don't
@@ -141,7 +141,7 @@ only takes place when a vehicle such as an ambulance is detected. Otherwise,
 the impact of the exponential function is later reversed.
 
 
-***Effect of Special Permission Vehicles on Fitness***
+### Effect of Special Permission Vehicles on Fitness
 
 When an ambulance or another vehicle of similar priority is detected, while the diminishing
 marginal significance effect takes place on regular cars, the opposite
@@ -149,14 +149,14 @@ happens for high priority vehicle. The exponential function  is used to increase
 the fitness value exponentially.
 
 
-###Effect of Pedestrians on Fitness
+### Effect of Pedestrians on Fitness
 
 On the parameter 'pedestrians', a road has its fitness
 value reduced to zero, this translates to a red light being shown on a road
 when traffic lights are switching, and a pedestrian is detected.
 
 
-##Technology and Justification
+## Technology and Justification
 
 Many of the critical technologies for this project have already been discussed at various points
 earlier in this document (i.e. LabelImg, Python, the ABC algorithm etc.) hence
@@ -164,7 +164,7 @@ this final section highlights technologies that have yet to be mentioned but
 still have a relatively important role to play.
 
 
-##RaspberryPi Integration
+## RaspberryPi Integration
 
 ***This part of the system has not been implemented due to challenges faced with acquiring a RaspberryPi
 either. However, below is a description of how this code repo will work with a RaspberryPi for a traffic
