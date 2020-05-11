@@ -114,9 +114,8 @@ are later used by the modified ABC algorithm to decide which road's traffic
 needs to move first. Maps (or dictionaries, as they are more commonly known in Python)
 are an appropriate and vital data structure in this process as they allow for speedy
 lookups to be made which is essential for a system like this which needs to
-make decisions in real-time. This point is echoed by that fact that the
-underlying neural network of our image detection model also uses a map
-structure which allows it to make its detections quickly.
+make decisions in real-time. Another important data structure in our system is the 
+underlying data structure of the neural network in our image detection model.
 
 
 ## Our Application of the ABC Algorithm
