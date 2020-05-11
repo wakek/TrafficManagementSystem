@@ -72,7 +72,7 @@ from these sources. According to Karaboga (2005), the ABC algorithm is outlined
 in the steps below:
 
 
-[Imgur](https://imgur.com/w8ngOov)
+!(Imgur)[https://imgur.com/w8ngOov]
 
 
 From the pseudo-code above, scouts are sent to identify the food sources, employed
